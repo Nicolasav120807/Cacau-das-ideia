@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produtos - Cacau das Ideias</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Produtos </h1>
+        <nav>
+            <a href="index.html">Voltar ao Início</a>
+        </nav>
+    </header>
+
+    <main class="produtos-grid">
+
+        <button class="produto-card" onclick="botaoproduto()">
+            <img id="trufachoco"
+                src="https://images.aws.nestle.recipes/original/2024_10_18T12_35_37_badun_images.badun.es_515e61e60e84_trufas_de_chocolate.jpg"
+                alt=" Trufa">
+            <h3 class="nomeProduto">Trufa de Chocolate</h3>
+            <p class="descricao">Deliciosa trufa com recheio intenso</p>
+            <span class="valor"><strong>R$ 5,00</strong></span>
+        </button>
+
+        <button class="produto-card2 produto-card" onclick="botaoproduto2()">
+            <img id="cacaucake" src="https://assets.unileversolutions.com/recipes-v3/164178-default.jpg"
+                alt=" Bolo Cacau">
+            <h3 class="nomeProduto2">Bolo Cacau Cremoso</h3>
+            <p class="descricao2">Bolo molhadinho com cobertura de chocolate</p>
+            <span class="valor2"><strong>R$ 12,00</strong></span>
+        </button>
+
+
+            <button class="produto-card3 produto-card" onclick="botaoproduto3()">
+                <img id="chocohot"
+                    src="https://www.sabornamesa.com.br/media/k2/items/cache/e9fe550ba3c0c201d69e3bc0a455b623_XL.jpg"
+                    alt=" Chocolate Quente">
+                <h3 class="nomeProduto3 ">Chocolate Quente</h3>
+                <p class="descricao3">Bebida quente para dias frios</p>
+                <span class="valor3"><strong>R$ 7,00</strong></span>
+            </button>    
+    </main>
+
+    <div style="width: 100%; text-align: center;">
+        <p class="resultado"></p>
+    </div>
+
+
+    <script src="script.js">
+
+    </script>
+    <footer>
+        <p>&copy; 2025 Cacau das Ideias</p>
+    </footer>
+</body>
+
+</html>
